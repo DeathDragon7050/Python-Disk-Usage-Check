@@ -1,6 +1,6 @@
 # you must import this file into another python program and call this files 'check' function to use it
 import shutil
-
+global data, f_data
 
 def check(drive_letter_name_string, *print_bool):
     # deal with type error
