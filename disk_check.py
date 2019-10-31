@@ -43,12 +43,9 @@ def check(drive_letter_name_string, *print_bool):
         spacer = '-' * longest_str_len
         title = "Disk usage stats"
         title_buffer_to_left = ' ' * round((longest_str_len - len(title)) / 2)
-        print('\n' + title_buffer_to_left + title)
+        print(title_buffer_to_left + title)
         print(spacer)
         for s in f_strs:
             print(s)
         print(spacer)
-        ex = 'Press enter to exit...'
-        ex_b = ' ' * round((longest_str_len - len(ex)) / 2)
-        input(f"\n{ex_b}{ex}")
-        quit()
+
