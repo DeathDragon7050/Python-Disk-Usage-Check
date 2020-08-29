@@ -1,5 +1,6 @@
 # Python-Disk-Usage-Check
 Gets the disk usage of any drive on the pc and use that data however you like.
+(Pretty beginner program but still useful I guess)
 
 ## Usage
 
